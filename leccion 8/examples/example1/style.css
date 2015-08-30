@@ -4,5 +4,54 @@ html, body{
 }
 
 body{
-    background: #c2c4cc;
+    background: #9f9f9f;
+}
+
+/**
+ * Container
+ * ---------
+ * flex-direction
+ * flex-wrap
+ * flex-flow
+ * justify-content
+ * align-items
+ * align-content
+ */
+#container{
+    background: #313131;
+    display: flex;
+    justify-content:flex-start;
+}
+
+/**
+ * Children
+ * --------
+ * order
+ * flex-grow
+ * flex-shrink
+ * flex-basis
+ * flex
+ * align-self
+ */
+.children{
+    background: #a50039;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 3.2em;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    height: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.children:nth-child(3){
+    order: -1;
+    flex-grow: 2;
+    background: purple;
+}
+.children:nth-child(4){
+    order: 1;
+    flex-shrink: 2;
 }
