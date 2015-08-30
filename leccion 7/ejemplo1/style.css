@@ -1,0 +1,27 @@
+#box{
+    width: 100px;
+    height: 100px;
+    background: navy;
+    margin: 100px auto;
+    animation: spin 10s linear infinite;
+    box-shadow: 10px yellow;
+}
+
+/**
+ * Animations
+ */
+
+@keyframes spin{
+    from {
+        transform: rotateZ(0deg) scale(.1);
+        background-color: red;
+    }
+    50%{
+        transform: rotateZ(180deg) scale(3);
+        background-color: blue;
+    }
+    to {
+        transform: rotateZ(360deg) scale(.1);
+        background-color: yellow;
+    }
+}
