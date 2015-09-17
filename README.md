@@ -12,7 +12,6 @@ Este curso es parte de una serie de cursos de desarrollo web que incluyen:
 
 ## Contenido
 
-### JavaScript Basico
 * Leccion 00 - [Introduccion](https://github.com/jorgeriv/curso-ecmascript/tree/master/leccion%2000)
 * Leccion 01 - [Selectores]()
 * Leccion 02 - [Modos de visualizacion]()
