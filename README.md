@@ -5,7 +5,7 @@ Curso/taller de CSS3
 Este curso es parte de una serie de cursos de desarrollo web que incluyen:
 
 [GIT](https://github.com/jorgeriv/curso-git) | 
-[CSS3](https://github.com/jorgeriv/curso-css) *Este curso* | 
+**[CSS3](https://github.com/jorgeriv/curso-css)** | 
 [HTML5](https://github.com/jorgeriv/curso-html5) | 
 [JavaScript](https://github.com/jorgeriv/curso-ecmascript) | 
 [Node.js](https://github.com/jorgeriv/curso-node)
