@@ -22,6 +22,8 @@ Clarifiquemos esto aun mas con un ejemplo, considera el siguiente documento html
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Gemann Hesse - Bajo la rueda</title>
 </head>
 <body>
     <header>
@@ -29,6 +31,9 @@ Clarifiquemos esto aun mas con un ejemplo, considera el siguiente documento html
     </header>
     <main>
         <h1>Capitulo 1</h1>
+        <p>
+        Joseph Giebenrath, agente y comisionista, no se diferenciaba en particular del resto de sus conciudadanos. Al igual que ellos, poseía una naturaleza corpulenta y sana...
+        </p>
     </main>
 </body>
 </html>
@@ -49,5 +54,5 @@ main h1{
 
 ```
 
-Ambos elementos header y main cuentan con un elemento "hijo" h1, para referirnos a cada uno de esos elementos de manera individual podemos hacerlo mediante la seleccion de su elemento contenedor o padre y luego el selector del elemento particular.
+Ambos elementos header y main cuentan con un elemento "hijo" <h1>, para referirnos a cada uno de esos elementos de manera individual podemos hacerlo mediante la seleccion de su elemento contenedor o padre y luego el selector del elemento particular.
 
