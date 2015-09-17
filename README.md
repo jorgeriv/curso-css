@@ -1,4 +1,4 @@
-# curso-ecmascript
+# curso-css3
 Curso/taller de CSS3
 
 ## Otros cursos de la serie
